@@ -110,3 +110,18 @@ SUPPORTED_SLOTS = ["upi", "bank", "url", "qr"]
 
 LLM_TIMEOUT = 10  # seconds
 
+# =========================================================
+# LLM SELECTION
+# =========================================================
+
+# Options: "gemini", "groq", "ollama"
+
+StrategyEngine_LLM = "groq"
+PersonaEngine_LLM = "groq"
+SUMMARIZER_LLM = "groq"
+
+# model names
+
+GEMINI_MODEL = "gemini-1.5-flash"
+GROQ_MODEL = "llama-3.1-8b-instant"
+OLLAMA_MODEL = "llama3"
