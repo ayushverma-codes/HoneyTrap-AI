@@ -87,15 +87,6 @@ PERSONAS = {
 }
 
 
-# =========================================================
-# STRATEGY MODE
-# =========================================================
-
-# Options:
-# "LOGIC_FIRST"   -> StrategyEngine selects action
-# "PERSONA_FIRST" -> PersonaEngine + LLM selects action
-
-STRATEGY_MODE = "LOGIC_FIRST"
 
 
 # =========================================================
